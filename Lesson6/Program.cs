@@ -36,8 +36,10 @@ Console.Write("Введите максимальное значение: ");
 int max = Convert.ToInt32(Console.ReadLine());
 
 int[] myArray = CreateRandomArray(n, min, max);
+Console.Write("Исходный массив: ");
 ShowArray(myArray);
 ReverseArray(myArray);
+Console.Write("Развёрнутый массив: ");
 ShowArray(myArray);
 */
 
